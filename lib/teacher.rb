@@ -5,6 +5,7 @@ class Teacher < User
 
 def teach
   random = KNOWLEDGE[rand(KNOWLEDGE.legnth)]
+  return random 
 end
 
 end
